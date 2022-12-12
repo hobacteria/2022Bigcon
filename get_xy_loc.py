@@ -82,7 +82,7 @@ address_table.reset_index(drop = True,inplace = True)
 
 tqdm.pandas()
 cnt = 0
-appkey = '63c767bfe1e2af023f72a87dca3ca6c9' # api키 그냥 넣어놨음. 일일 30만개 제한
+appkey = '###################' # api키 삭제. 일일 30만개 제한
 
 def AK_location(address):
     global cnt # 글로벌 함수로 설정
